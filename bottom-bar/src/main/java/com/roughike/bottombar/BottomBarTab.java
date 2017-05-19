@@ -338,6 +338,12 @@ public class BottomBarTab extends LinearLayout {
         }
     }
 
+    public void showNeutralBadge(){
+        setBadgeCount(1);
+        badge.setText("");
+        badge.setWidth(1);
+    }
+
     public void removeBadge() {
         setBadgeCount(0);
     }
